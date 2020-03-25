@@ -1,0 +1,15 @@
+{
+  "author": "ExoKomodo",
+  "classifications": [
+    "Common",
+    "Code",
+    "C#8"
+  ],
+  "identity": "Komodo.DesktopGL",
+  "name": "Komodo Templates: DesktopGL project",
+  "shortName": "komodo-desktopgl",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

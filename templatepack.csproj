@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageId>Komodo.Templates</PackageId>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>dotnet-new;templates;game-engine;ecs;2d-game-engine;3d-game-engine</PackageTags>
+    
+    <Title>Komodo Templates</Title>
+    <Authors>ExoKomodo</Authors>
+    <Description>Project templates for games using Komodo Engine.</Description>
+    <Copyright>Copyright (c) 2020 ExoKomodo</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/ExoKomodo/Komodo</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+
+    <PackageVersion>1.0.9</PackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".\**\*" Exclude=".\**\bin\**;.\**\obj\**" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
